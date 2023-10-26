@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# displays the filenames after the first '-'
+
+LIST="$(ls -1)"
+
+for i in $LIST
+do
+	echo "$i" | cut -d '-' -f 2-
+done
+
