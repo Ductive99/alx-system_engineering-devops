@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# creates a file and handles different signals
+
+echo "$$" > "/var/run/myscript.pid"
+
+sigquit_term_handler() {
+	rm /var/run/myscript.pid
+	exit
+}
+
+trap 'echo "Y U no love me?!"' SIGINT
+trap 'echo "I hate the kill command" && sigquit_term_handler' SIGTERM
+trap 'sigquit_term_handler' SIGQUIT
+
+while true
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
