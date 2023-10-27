@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# display username, uid, home directory path for the user
+# from the /etc/passwd file
+
+cut -d ":" -f 1,3,6 /etc/passwd
