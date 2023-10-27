@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # stops 4-to_infinity_and_beyond process
 
-processID=$(pgrep -f "4-to_infinity_and_beyond")
+pname="4-to_infinity_and_beyond"
 
-if [ -n "$processID" ]; then
-	pkill -g "$processID"
+if [ -n "$pname" ]; then
+	pkill -15 "$pname" -f
 fi
