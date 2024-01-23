@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 # Installs, configures and starts a web server
-
-# Installation
 apt-get update
+# Installation
 apt-get -y install nginx
 
 # Configuration
