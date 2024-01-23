@@ -18,7 +18,7 @@ echo "server {
     location /redirect_me {
         return 301 https://x.com/ductive99;
     }
-}" > /etc/nginx/sites-available/default;
+}" > /etc/nginx/sites-available/default
 
 # Starting
 service nginx restart
