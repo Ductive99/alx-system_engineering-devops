@@ -1,2 +1,12 @@
 #!/usr/bin/env bash
-# Configures a server
+# Configures a new Ubuntu machine
+
+apt-get -y update
+apt-get -y install nginx
+ufw allow 'Nginx HTTP'
+echo 'Hello World!' > /var/www/html/index.nginx-debian.html
+# shellcheck disable=SC2016
+sed -i '/listen 80 default_server;/a rewrite ^/redirect_me https://www.github.com/Ductive99 permanent;' /etc/nginx/sites-available/default
+# shellcheck disable=SC2016
+sed -i '/listen 80 default_server;/a add_header X-Served-By $hostname;' /etc/nginx/sites-available/default
+service nginx start
