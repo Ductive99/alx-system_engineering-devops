@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Configures an Nginx server
 
-sudo rm /etc/nginx/sites-enabled/default
-ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo service nginx restart
+kill "$(pgre 'nginx' | head -1)"
