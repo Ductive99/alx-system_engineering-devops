@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Configures an Nginx server
 
-mv /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-cp /etc/nginx/sites-enabled/default /etc/nginx/sites-available/default
+sudo rm /etc/nginx/sites-enabled/default
+ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo service nginx restart
