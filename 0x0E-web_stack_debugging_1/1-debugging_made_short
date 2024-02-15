@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # Configures an Nginx server
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-sudo service nginx restart
+sudo service nginx start
 kill "$(pgre 'nginx' | head -1)"
