@@ -21,7 +21,12 @@ Following a recent deployeent of updates to our applicatio, a critical failure o
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Moroccan_cuscus%2C_from_Casablanca%2C_September_2018.jpg" alt="Moroccan Couscous" width="200" align="left">
 
-During the outage, most user requests resulted in 500 errors, causing frustration and dissatisfaction among our user base. The inability to access key features of the application led to a decline in user engagement and potential loss of revenue, which is currently being evaluated by the financial team. In addition, many developers missed their lunch break which is a Couscous meal on Friday. This could also explain, why it took the team so long (~1hour) to notice the outage, as they were ready to feast.
+During the outage, most user requests resulted in 500 errors, causing frustration and dissatisfaction among our user base. The inability to access key features of the application led to a decline in user engagement and potential loss of revenue, which is currently being evaluated by the financial team. In addition, many developers missed their lunch break which is a Couscous meal on Friday.
+
+This could also explain, why it took the team so long (~1hour) to notice the outage, as they were ready to feast.
+
+
+
 
 ## Root cause:
 
