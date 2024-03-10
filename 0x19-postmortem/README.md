@@ -23,10 +23,7 @@ Following a recent deployeent of updates to our applicatio, a critical failure o
 
 During the outage, most user requests resulted in 500 errors, causing frustration and dissatisfaction among our user base. The inability to access key features of the application led to a decline in user engagement and potential loss of revenue, which is currently being evaluated by the financial team. In addition, many developers missed their lunch break which is a Couscous meal on Friday.
 
-This could also explain, why it took the team so long (~1hour) to notice the outage, as they were ready to feast.
-
-
-
+This could also explain, why it took the team so long (~1hour) to notice the outage, as they were ready to feast.<br><br><br>
 
 ## Root cause:
 
