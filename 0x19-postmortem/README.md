@@ -2,7 +2,7 @@
 
 The following is the incident report for the D.U.C. application outage that occured on March 9, 2024. We would like to to apologize to absolutely nobody.
 
-![Conor McGregor - "I want to take this chance to apologize..."](https://i.makeagif.com/media/4-05-2017/dq0sbl.gif)
+![Conor McGregor - "I want to take this chance to apologize..."](./resources/conor.gif)
 
 ## Issue Summary:
 
