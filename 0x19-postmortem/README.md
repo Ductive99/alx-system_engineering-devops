@@ -2,7 +2,7 @@
 
 The following is the incident report for the D.U.C. application outage that occured on March 9, 2024. We would like to to apologize to absolutely nobody.
 
-![Conor Mcgregor: I'd like to apologize to absolutely nobody](https://media1.tenor.com/m/5FvSlBGggwEAAAAd/conor-mcgregor-ufc.gif)
+![Conor McGregor - "I want to take this chance to apologize..."](https://i.makeagif.com/media/4-05-2017/dq0sbl.gif)
 
 ## Issue Summary:
 
@@ -21,7 +21,7 @@ Following a recent deployeent of updates to our applicatio, a critical failure o
 
 During the outage, most user requests in 500 errors, causing frustration and dissatisfaction among our user base. The inability to access key features of the application led to a decline in user engagement and potential loss of revenue, which is being currently being evaluated by the financial team. In addition, many developers missed their lunch break which is a Couscous meal on friday.
 
-![Moroccan Couscous](https://upload.wikimedia.org/wikipedia/commons/0/0c/Moroccan_cuscus%2C_from_Casablanca%2C_September_2018.jpg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Moroccan_cuscus%2C_from_Casablanca%2C_September_2018.jpg" alt="Moroccan Couscous" width="200">
 
 This could also explain, why it took the team so long (~1hour) to notice the outage, as they were ready to feast.
 
